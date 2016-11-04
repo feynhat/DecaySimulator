@@ -1,6 +1,8 @@
 # DecaySimulator
 Monte Carlo simulations of radioactive decay chains.
 
+You must have a standard C compiler and `gnuplot` to run this program.
+
  * To run the program, open the directory `DecaySimulator` in terminal and type
 `./run`.
 
@@ -20,3 +22,15 @@ unit *per iteration* and not *per unit time*).
  * Enter the name of the file in which you want the plot to be drawn by gnuplot.
  Leave it blank for default value `MC_Plot.png` (It will be created if it does
  not exit and will be replaced if does).
+
+##Examples
+
+### k1 > k2
+![E1](https://i.imgur.com/2xYdwbo.png)
+![E2](https://i.imgur.com/pR2N3jo.png)
+
+#### Comparison with analytical plot
+![E3](https://i.imgur.com/6exgP3o.png)
+### k2 << k1
+![E4](https://i.imgur.com/a91D2kK.png)
+![E5](https://i.imgur.com/P8cg4mI.png)
