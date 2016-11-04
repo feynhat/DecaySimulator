@@ -56,7 +56,7 @@ if [[ -z "${OUTFILE// }" ]]; then
 	OUTFILE="MC_Plot.png"
 fi
 
-cc run.c -o run
+cc simulate.c -o run
 ./run "$K1" "$K2" "$N_ITER" "$N_MOL" > "$PLOTFILE"
 
 echo "set term png" > gpscript.p
