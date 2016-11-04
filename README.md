@@ -27,10 +27,16 @@ unit *per iteration* and not *per unit time*).
 
 ### k1 > k2
 ![E1](https://i.imgur.com/2xYdwbo.png)
+
 ![E2](https://i.imgur.com/pR2N3jo.png)
 
 #### Comparison with analytical plot
 ![E3](https://i.imgur.com/6exgP3o.png)
+
+The plot generated using Monte Carlo simulation is very similar to the one which
+we get by analytically solving the differential equation for the 3-species decay
+chain.
 ### k2 << k1
 ![E4](https://i.imgur.com/a91D2kK.png)
+
 ![E5](https://i.imgur.com/P8cg4mI.png)
