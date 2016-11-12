@@ -3,8 +3,10 @@ Monte Carlo simulations of radioactive decay chains.
 
 You must have a standard C compiler and `gnuplot` to run this program.
 
+ * First clone the repository using `git clone https://github.com/feynhat/DecaySimulator`.
+
  * To run the program, open the directory `DecaySimulator` in terminal and type
-`./run`.
+`./run.sh`.
 
  * Enter values for decay constants of A and B (Note that these constants have
 unit *per iteration* and not *per unit time*).
