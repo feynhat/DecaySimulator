@@ -67,10 +67,6 @@ int main(int argc, char **argv)
 	for (i = 0; i < n_iter; i++) {
 		for (j = 0; j < k1; j++) {
 			cell = rand2(n_mol);
-			if (cell >= n_mol) {
-				printf("error: rand2 has gone berserk");
-				exit(EXIT_FAILURE);
-			}
 			if (state_A[cell]) {
 				state_A[cell] = false;
 				state_B[cell] = true;

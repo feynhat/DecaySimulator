@@ -18,14 +18,14 @@
 #   along with DecaySimulator.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-printf "DecaySimulator  Copyright (C) 2016  K. Sannidhy Shukla\n"
+printf "DecaySimulator  Copyright (C) 2016  K. Sannidhya Shukla\n"
 printf "This program comes with ABSOLUTELY NO WARRANTY.\n"
 printf "This is free software, and you are welcome to redistribute it under certain conditions; see <https://www.gnu.org/licenses/gpl.html> for details.\n\n"
 
 echo -n "Enter the decay constant for A: "
 read K1
 if [[ -z "${K1// }" ]]; then
-	echo "error: invalid value"
+	printf "\nerror: invalid value"
 	exit
 fi
 echo -n "Enter the decay constant for B: "
